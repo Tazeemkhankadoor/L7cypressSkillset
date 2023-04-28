@@ -30,9 +30,9 @@ function findWord(grid, word) {
 grid = [['x', 'c', 'a'], ['d', 'y', 't'], ['o', 'g', 'z']] 
 word = 'xdogy'
 if (findWord(grid,word)){
-    console.log("found")
+    console.log(true)
 
 }
 else{
-    console.log("Notfound")
+    console.log(false)
 }
